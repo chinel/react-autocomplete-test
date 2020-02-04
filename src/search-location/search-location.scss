@@ -1,0 +1,52 @@
+h2{
+    font-size: 40px;
+}
+
+.btnWrap{
+text-align: left;
+.backBtn{
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color:transparent;
+      border: 1px solid #ffffff;
+}
+}
+.inputWrapper{
+   position: relative;
+
+    .inputForm { 
+       
+        width: 100%;
+        font-size: 20px;
+        box-sizing: border-box;
+        border-radius: 0px !important;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        background-color: #fff;
+        border: 1px solid #ffffff;
+    
+    }
+    span{
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 10px);
+
+        img{
+            position: relative;
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+        }
+    
+    } 
+}

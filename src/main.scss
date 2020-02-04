@@ -1,0 +1,50 @@
+#intro{
+        font-size:4em;
+        margin-bottom: 0px;
+    }
+
+#subIntro{
+    margin-top: 5px;
+}    
+
+.wrapper {
+    @media only screen and (min-width: 767px) {
+        width: 50%;  
+	}
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+  }
+
+  .btnWrapper {
+      margin-top: 40px;
+    display: flex;
+    div {
+      flex: auto;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 16px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+      background-color:transparent;
+      border: 1px solid #ffffff;
+    }
+  }
+}
